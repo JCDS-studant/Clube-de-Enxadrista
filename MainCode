@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clube de Enxadrista</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f7fa;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #0b3d91; /* azul marinho */
+      color: #f68b1e; /* laranja */
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+    }
+    nav a {
+      color: #f68b1e;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #fbc05e;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #0b3d91;
+      margin-bottom: 15px;
+      border-bottom: 3px solid #f68b1e;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    p {
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+      margin-bottom: 12px;
+    }
+    .btn-google {
+      display: inline-block;
+      background-color: #0b3d91;
+      color: #f68b1e;
+      padding: 12px 22px;
+      border-radius: 6px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .btn-google:hover {
+      background-color: #08407e;
+      color: #fff;
+    }
+    footer {
+      text-align: center;
+      padding: 15px 10px;
+      background-color: #0b3d91;
+      color: #f68b1e;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      font-size: 0.9rem;
+    }
+    /* Para mobile */
+    @media(max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav a {
+        margin: 10px 10px 0 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Clube de Enxadrista</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#sobre">Sobre o Clube</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Bem-vindo ao Clube de Enxadrista!</h2>
+      <p>Se você curte xadrez, tá no lugar certo! Aqui a gente joga, aprende e compete junto. Vem fazer parte da nossa comunidade!</p>
+      <a class="btn-google" href="https://classroom.google.com/c/NTE0MDg2NTc4MjRa?cjc=35vphfu" target="_blank" rel="noopener noreferrer">
+        Entrar no Google Sala de Aula
+      </a>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre o Clube</h2>
+      <p>O Clube de Enxadrista é um espaço para estudantes que amam xadrez. Nosso objetivo é promover o aprendizado, a prática e a competição saudável, além de fortalecer amizades entre os membros.</p>
+      <p>Somos um clube da escola estadual, com foco em desenvolver raciocínio lógico, estratégia e concentração através do jogo.</p>
+    </section>
+
+    <section id="eventos">
+      <h2>Eventos</h2>
+      <ul>
+        <li>Torneio Interno de Xadrez - 15 de setembro</li>
+        <li>Workshop de Estratégias Avançadas - 30 de setembro</li>
+        <li>Campeonato Regional - 20 de outubro</li>
+      </ul>
+      <p>Fique ligado para mais eventos! Participar é só chegar e jogar.</p>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Quer saber mais? Manda um e-mail pra gente:</p>
+      <p><strong>clube.enxadrista@email.com</strong></p>
+      <p>Ou fala com o presidente Cerqueira na escola.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Clube de Enxadrista - Todos os direitos reservados
+  </footer>
+</body>
+</html>
