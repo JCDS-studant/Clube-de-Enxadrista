@@ -131,9 +131,7 @@
     <section id="eventos">
       <h2>Eventos</h2>
       <ul>
-        <li>Torneio Interno de Xadrez - 15 de setembro</li>
-        <li>Workshop de Estratégias Avançadas - 30 de setembro</li>
-        <li>Campeonato Regional - 20 de outubro</li>
+        <li>Torneio Interno de Xadrez - 02 de outubro até 16 de outubro</li>
       </ul>
       <p>Fique ligado para mais eventos! Participar é só chegar e jogar.</p>
     </section>
@@ -141,13 +139,9 @@
     <section id="contato">
       <h2>Contato</h2>
       <p>Quer saber mais? Manda um e-mail pra gente:</p>
-      <p><strong>clube.enxadrista@email.com</strong></p>
+      <p><strong>joao.csouza@aluno.edu.es.gov.br</strong></p>
       <p>Ou fala com o presidente Cerqueira na escola.</p>
     </section>
   </main>
-
-  <footer>
-    &copy; 2025 Clube de Enxadrista - Todos os direitos reservados
-  </footer>
 </body>
 </html>
